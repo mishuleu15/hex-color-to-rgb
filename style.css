@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Titillium+Web&display=swap');
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+ul li a {
+  text-decoration: none;
+  color: #383838;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+ul li a:hover {
+  color: green;
+}
+
+.nav-bar {
+  display: flex;
+  background-color: aliceblue;
+  padding: 1rem;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.nav-bar_color-simple {
+  margin-right: 40rem;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+h1 {
+  background-color: black;
+  color: white;
+  margin-bottom: 1rem;
+  padding: 20px;
+  border-radius: 10px;
+  letter-spacing: 1.5px;
+}
+
+button {
+  padding: 1rem;
+  border: 2px solid black;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  filter: brightness(90%);
+}
+button:active {
+  background-color: #383838;
+}
+
+span {
+  color: hsl(202, 80%, 60%);
+}

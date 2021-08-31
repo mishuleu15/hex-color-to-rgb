@@ -65,7 +65,7 @@ button {
 }
 
 button:hover {
-  filter: brightness(90%);
+  filter: brightness(91%);
 }
 button:active {
   background-color: #383838;

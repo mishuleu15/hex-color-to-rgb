@@ -1,7 +1,6 @@
 const body = document.querySelector('body');
 const btn = document.querySelector('button');
 const span = document.querySelector('span');
-const colorBtn = document.querySelector('#nav-bar_color');
 const rgbBtn = document.querySelector('#nav-bar_rgb');
 const hexBtn = document.querySelector('#nav-bar_hex');
 
